@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <body>
+        <header>
+                <nav>
+                        <div>HNH013 | Cash Register</div>
+                        <div><a href="https://github.com/Hnh013/cash-register">Source Code</a></div>
+                </nav>
+        </header>
+        <div class="container">
+                <h1>Cash Register Manager</h1>
+                <p>
+                    Enter the bill amount and cash given by the customer and know minimum
+                    number of notes to return.
+                </p>
+                <div class="input-area" id="input-area"> 
+                    <label class="label">Bill Amount</label>
+                    <input type="number" step="1" id="billAmount" min="0" placeholder="Enter bill amount here" name="billAmount"/>
+                    <button id="nextButton" class="nextButton">Next</button>
+                </div>
+                <div id="bA-req" style="display: none;" class="errorMsg">Please enter valid Bill amount !</div>
+                <div class="cash-area" id="cash-area" style="display: none;">
+                    <label class="label">Cash Given</label>
+                    <input type="number" step="1" id="cashGiven" name="cashGiven"/>
+                    <button class="checkButton" id="checkButton">Check</button>
+                </div>
+                <div id="cG-req" style="display: none;" class="errorMsg">Please enter valid value  of Cash given !</div>
+                <div id="errorMsg" style="display: none;" class="errorMsg">Cash given is less than Bill amount !</div>
+                <div class="output-area" style="display: none;" id="output-area">
+                    <label class="label">Return Change</label>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>No. of notes</td>
+                                <td class="noOfNotes" style="background-color: white;"></td>
+                                <td class="noOfNotes" style="background-color: white;"></td>
+                                <td class="noOfNotes" style="background-color: white;"></td>
+                                <td class="noOfNotes" style="background-color: white;"></td>
+                                <td class="noOfNotes" style="background-color: white;"></td>
+                                <td class="noOfNotes" style="background-color: white;"></td>
+                                <td class="noOfNotes" style="background-color: white;"></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Note</td>
+                                <td>2000</td>
+                                <td>500</td>
+                                <td>100</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+
+        <footer>
+            
+            <div class="footer-div">
+               <h4> Connect with me on Social Media</h4>
+            </div>
+            <div class="footer-div">
+                
+                <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/"><i class="fa fa-facebook-square"></i></a>
+                </div>
+                <div class="social-icon"><a href="https://github.com/Hnh013"><i class="fa fa-github-square"></i></a></div>
+                <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/"><i
+                            class="fa fa-linkedin-square"></i></a></div>
+                <div class="social-icon"><a href="https://twitter.com/Harshit24076243"><i class="fa fa-twitter-square"></i></a>
+                </div>
+                <div class="social-icon"><a href="https://www.instagram.com/hnh013/"><i class="fa fa-instagram"></i></a></div>
+                
+            </div>
+        </footer>
+<script src="./index.js"></script>
+</body>
+    
+</body>
+</html>

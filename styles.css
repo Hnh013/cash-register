@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  background-color: lightgreen;
+}
+
+.container {
+  max-width: 500px;
+  min-height: 200px;
+  margin: auto;
+  padding: 2rem 2rem;
+  background-color: darkgreen;
+}
+
+h1,
+p,
+.errorMsg {
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.input-area,
+.cash-area,
+.output-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: lightgreen;
+  font-weight: bolder;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  display: block;
+  font-size: 1rem;
+  border: none;
+  margin: 1.5rem;
+  background-color: lightgreen;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+table {
+  padding: 0.2rem;
+  color: darkgreen;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  table-layout: fixed;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+thead,
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+td {
+  width: 12.5%;
+  padding: 0.2rem;
+  border: 2px solid darkgreen;
+  font-weight: bolder;
+  word-wrap: break-word;
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgreen;
+  color: lightgreen;
+  font-family: "Poller One", cursive;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 1;
+    background-color: darkgreen;
+    color: lightgreen;
+    width:100%;
+}
+
+nav div {
+  padding: 1rem;
+  margin: auto;
+  font-size: larger;
+  font-weight: bolder;
+  align-items: baseline;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: lightgreen;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+
+.footer-div {
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    padding: 5px;
+    cursor: pointer;
+    font-size: larger;
+}
+
