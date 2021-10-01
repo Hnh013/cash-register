@@ -2,7 +2,7 @@
 ### A simple cash register in vanilla JS , that calculates least amount of notes to be returned based on bill and cash given    
 
 The app is made in vanilla JS so there is no need to install the dependencies   
-Live App at :  
+Live App at :    https://cash-register-gucb4wqj5-hnh013.vercel.app/    
 Pre-requisites : A code editor   
 Steps to run the app at your local machine   
 
